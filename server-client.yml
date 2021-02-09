@@ -3,7 +3,7 @@ spring:
     active: dev
 ---
 server:
-  port: 8203
+  port: 8201
 
 spring:
   profiles: dev
@@ -14,9 +14,11 @@ eureka:
     register-with-eureka: false #因为是消费者 不需要向注册中心注册自己
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
+info:
+  config: woshi2021
 ---
 server:
-  port: 8204
+  port: 8202
 
 spring:
   profiles: test
@@ -27,3 +29,5 @@ eureka:
     register-with-eureka: false #因为是消费者 不需要向注册中心注册自己
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
+info:
+  config: woshi2022
