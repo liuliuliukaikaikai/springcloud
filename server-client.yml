@@ -10,7 +10,7 @@ spring:
   application:
     name: springcloud-config-dev
 info:
-  config: "woshi2021"
+  config: "woshi20211111"
 ---
 server:
   port: 8202
