@@ -15,7 +15,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
 info:
-  config: woshi2021111
+  config: woshi2021
 ---
 server:
   port: 8202
@@ -30,4 +30,4 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
 info:
-  config: woshi202
+  config: woshi202222
