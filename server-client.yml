@@ -10,7 +10,7 @@ spring:
   application:
     name: springcloud-config-dev
 info:
-  config: "woshi2021"
+  config: "woshi2021111111111"
 ---
 server:
   port: 8202
@@ -25,4 +25,4 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
 info:
-  config: "woshi2022"
+  config: "woshi202222222222222"
